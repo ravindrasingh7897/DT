@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+
+<body>
+    <navbar class="navbar">
+        <div class="logo">
+            <img src="https://deepthought.education/assets/images/logo/logo.svg" alt="Connect Net">
+
+        </div>
+        <div class="icon">
+            <i class="fi fi-rr-home"></i>
+            <i class="fi fi-rr-settings"></i>
+            <i class="fi fi-rr-bell"></i>
+            <i class="fi fi-rr-menu-dots-vertical"></i>
+        </div>
+        <div class="icon">
+            <img src="https://www.flaticon.com/free-icon-font/home_3917032?related_id=3917032" alt="">
+        </div>
+    </navbar>
+    <div class="container">
+        <button class="expand-button">1</button>
+        <div class="expandable-content">
+            <h3>Explore the world of management</h3>
+            <div class="list-container">
+                <ul class="circle-list">
+                    <li> Technical Project Management </li>
+                    <li>Threadbuild </li>
+                    <li> Structure your pointers </li>
+                    <li>4SA Method </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>document.querySelector('.expand-button').addEventListener('click', function () {
+            const content = document.querySelector('.expandable-content');
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block'; // Show the content
+                this.textContent = 'Journey Board'; // Change button text
+            } else {
+                content.style.display = 'none'; // Hide the content
+                this.textContent = '1'; // Change button text
+            }
+        });</script>
+
+    <h2>Technical Project Management</h2>
+    <div class="main">
+        <div class="explore">
+            <h3>Explore the world of management</h3>
+            <i class="fi fi-rs-house-chimney"></i>
+            <p>As a project manager, you play an important reole in leading a project through initiation, planning,
+                execution, monitoring, controlling and completion. How? Do you want to manage each and every step of
+                your life?</p>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="card1">
+            <div class="heading">
+                <p class="p">Technical Project Management</p>
+                <i class="fi fi-rr-info"></i>
+            </div>
+            <p class="card-description">Description:Story of Alignment Scope of Agility Specific
+                Accountable StaggeringApproach</p>
+            <iframe width="99%" height="280" src="https://www.youtube.com/embed/TiMRwri1xJ8"></iframe>
+
+        </div>
+        <div class="card2">
+            <div class="heading">
+                <p class="p">Threadbuild</p>
+                <i class="fi fi-rr-info"></i>
+            </div>
+
+            <p class="card-description">
+                Description:Watch the video and threadbuild, and jot out key threads while watchingthe
+                video
+            </p>
+            <div class="thread">
+                <i class="fi fi-rr-angle-small-up"></i>
+                <p>Thread A</p>
+            </div>
+
+            <div class="cards">
+
+                <div class="cardd1">
+                    <div class="subthread">
+                        <p>Sub Thread 1</p>
+                    </div>
+                    <div class="textinput">
+                        <input type="text" class="card-input" placeholder="Enter text here">
+                    </div>
+                </div>
+
+                <div class="cardd2">
+                    <div class="subthread">
+                        <p>Sub Interpretation 1</p>
+                    </div>
+                    <input type="text" class="card-input" placeholder="Enter text here">
+                </div>
+
+            </div>
+            <div class="middle">
+
+            </div>
+            <div class="lastcard">
+                <div class="cardd1">
+                    <div class="subthread">
+                        <p>Summary for Thread A</p>
+                    </div>
+                    <div class="textinput">
+                        <input type="text" class="card-input" placeholder="Enter text here">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="heading">
+                <p class="p">Threadbuild</p>
+                <i class="fi fi-rr-info"></i>
+            </div>
+
+            <p class="card-description">
+                Description:Write a 300 - 400 word article from your
+                thread.Publish yourunderstanding and showcase your understanding to the entire world
+            </p>
+            <div class="third">
+                <h3 class="tittle">Title</h3>
+                <div class="box"></div>
+                <h3 class="tittle">Content</h3>
+                <div class="edit">
+                    <div class="taskbar">
+                        <div class="taskbar1">
+                            <p>File</p>
+                            <p>Edit</p>
+                            <p>View</p>
+                            <p>Insert</p>
+                            <p>Format</p>
+                            <p>Tools</p>
+                            <p>Table</p>
+                            <p>Help</p>
+                        </div>
+                        <div class="taskbar2">
+                            <i class="fi fi-rr-angle-small-left"></i>
+                            <i class="fi fi-rr-angle-small-right"></i>
+                            <i class="fi fi-rr-zoom-in"></i>
+                            <div class="smallbox">Paragraph</div>
+                            <i class="fi fi-rr-menu-dots"></i>
+                        </div>
+
+                    </div>
+                    <div class="box2">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="heading">
+                <p class="p">4SA Method</p>
+                <i class="fi fi-rr-info"></i>
+            </div>
+
+            <p class="card-description"><strong>Description:</strong> To Explore more read more </p>
+            <div class="mainbox">
+                <div class="intro">
+                    <i class="fi fi-rr-angle-small-up"></i>
+                    <strong>Introduction</strong>
+                </div>
+                <div class="text">
+                    <p>The 4SA Method , How to bring a idea into progress ?</p>
+                </div>
+                <div class="threada">
+                    <i class="fi fi-rr-angle-small-up"></i>
+                    <strong>Thread A</strong>
+                </div>
+                <div class="textt">
+                    <p>How are you going to develop your stratergy ? Which method are you going to use to develop a
+                        stratergy ? What if the project is lengthy?</p>
+                </div>
+                <div class="example1">
+                    Example 1
+                </div>
+                <div class="texttt">
+                    <p>You have a concept , How will you put into progress?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
